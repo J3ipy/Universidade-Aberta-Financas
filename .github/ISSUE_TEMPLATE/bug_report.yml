@@ -1,0 +1,30 @@
+name: Problema / Link quebrado
+description: Reporte um link quebrado, erro de formatação ou informação desatualizada.
+title: "[Bug] <descrição>"
+labels: ["bug"]
+body:
+  - type: input
+    id: arquivo
+    attributes:
+      label: Arquivo onde está o problema
+      placeholder: README.md, extras/README.md, etc.
+    validations:
+      required: true
+  - type: input
+    id: trecho
+    attributes:
+      label: Trecho / linha (se possível)
+      placeholder: Cole o trecho ou informe onde está
+    validations:
+      required: true
+  - type: textarea
+    id: descricao
+    attributes:
+      label: Descrição do problema
+    validations:
+      required: true
+  - type: input
+    id: sugestao
+    attributes:
+      label: Sugestão de correção (opcional)
+      placeholder: Link novo, texto corrigido, etc.

@@ -1,0 +1,61 @@
+name: Sugestão de recurso
+description: Indique um curso, livro, playlist ou material para entrar no currículo.
+title: "[Recurso] <título do recurso>"
+labels: ["recurso"]
+body:
+  - type: input
+    id: titulo
+    attributes:
+      label: Título
+      placeholder: Ex.: Como fazer investimentos 1 (FGV)
+    validations:
+      required: true
+  - type: input
+    id: instituicao
+    attributes:
+      label: Instituição / autor
+      placeholder: Ex.: FGV Educação Executiva
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link oficial
+      placeholder: https://...
+    validations:
+      required: true
+  - type: dropdown
+    id: idioma
+    attributes:
+      label: Idioma
+      options:
+        - PT-BR
+        - EN
+        - ES
+        - Outro
+    validations:
+      required: true
+  - type: dropdown
+    id: custo
+    attributes:
+      label: Custo
+      options:
+        - Gratuito
+        - Pago
+        - Freemium
+    validations:
+      required: true
+  - type: textarea
+    id: justificativa
+    attributes:
+      label: Por que esse recurso é bom?
+      description: Conteúdos, ementa, reputação, experiência, etc.
+    validations:
+      required: true
+  - type: textarea
+    id: onde_entraria
+    attributes:
+      label: Onde isso entra na grade?
+      description: Indique etapa/tema e possíveis pré-requisitos.
+    validations:
+      required: true

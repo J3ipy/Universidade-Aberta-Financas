@@ -1,0 +1,11 @@
+{
+  "files": ["README.md"],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [],
+  "contributorsPerLine": 7,
+  "projectName": "financas-investimentos-economia",
+  "projectOwner": "SEU_USUARIO",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
