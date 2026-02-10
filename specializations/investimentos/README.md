@@ -20,3 +20,26 @@ Sair do “vocabulário” e ir para a prática:
 - Planilha de alocação (com rebalanceamento)
 - Diário de investimentos (hipóteses, decisões, lições)
 - Estudo de caso: “por que um ativo caiu/subiu?” (sem operar; só análise)
+
+# Especialização — Investimentos
+
+## Objetivo
+Aprofundar em produtos financeiros e gestão de carteira.
+
+## Pré-requisitos
+Currículo base até a Etapa 2.
+
+## Conteúdos
+- Renda fixa
+- Renda variável
+- Fundos e ETFs
+- Diversificação
+
+## Recursos
+- B3 Educação
+- FGV Investimentos
+
+## Projetos
+- Carteira multiativos
+- Análise de risco
+

@@ -15,3 +15,22 @@ Aprofundar fundamentos para:
 ## Projetos
 - Painel macro (indicadores + análise mensal)
 - Resumo crítico de 1 paper/artigo por mês
+
+# Especialização — Economia
+
+## Objetivo
+Compreender fenômenos econômicos e impactos nos mercados.
+
+## Conteúdos
+- Microeconomia
+- Macroeconomia
+- Economia brasileira
+
+## Recursos
+- Unicamp
+- Playlists abertas
+
+## Projetos
+- Relatório macroeconômico
+- Estudo de elasticidade
+

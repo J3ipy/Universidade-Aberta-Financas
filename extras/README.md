@@ -16,3 +16,13 @@ Conteúdos que ajudam muito, mas não são “obrigatórios” para seguir a gra
 
 - Planilhas: orçamento, juros compostos, amortização, alocação.
 - Python/R: séries temporais, risco/retorno, backtests simples.
+
+## Eventos e Workshops
+- B3 — https://edu.b3.com.br/eventos
+- FGV — https://educacao-executiva.fgv.br/eventos
+- Sebrae — https://sebrae.com.br/sites/PortalSebrae/agenda
+
+## Leituras Avançadas
+- Damodaran — http://pages.stern.nyu.edu/~adamodar/
+- MIT OpenCourseWare — https://ocw.mit.edu
+

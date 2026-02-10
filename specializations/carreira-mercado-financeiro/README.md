@@ -11,3 +11,23 @@ Organizar estudos para quem quer trabalhar na área (bancos, corretoras, asset, 
 ## Projetos
 - Relatório de 1 empresa (modelo simples + tese)
 - Simulador de carteira com regras de risco
+
+
+# Especialização — Carreira no Mercado Financeiro (Brasil)
+
+## Objetivo
+Entender caminhos profissionais, ética e regulação.
+
+## Conteúdos
+- Sistema Financeiro Nacional
+- Regulação
+- Ética
+
+## Recursos
+- CVM
+- ANBIMA
+- Banco Central
+
+## Projetos
+- Mapa de carreira
+

@@ -12,3 +12,22 @@ Aprender a estruturar, validar e operar um negócio com disciplina financeira.
 ## Projetos
 - Simular um negócio: projeção de caixa 12 meses
 - Definir oferta + canais + métricas (1-pager)
+
+# Especialização — Empreendedorismo
+
+## Objetivo
+Aplicar finanças na criação e gestão de negócios.
+
+## Conteúdos
+- Modelos de negócio
+- Precificação
+- Fluxo de caixa
+
+## Recursos
+- Sebrae
+- BNDES
+- FGV
+
+## Projetos
+- Canvas + plano financeiro
+
