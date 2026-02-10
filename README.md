@@ -1,4 +1,3 @@
-```markdown
 ![educacional](https://img.shields.io/badge/conte%C3%BAdo-educacional-blue)
 ![pt-br](https://img.shields.io/badge/idioma-PT--BR-green)
 ![open](https://img.shields.io/badge/open-curriculum-brightgreen)
@@ -36,7 +35,6 @@ meu-progresso/
 ├─ resumos/
 ├─ planilhas/
 └─ projetos/
-
 ```
 
 ---
@@ -153,5 +151,4 @@ Quer sugerir um conteúdo ou corrigir um erro? Veja o guia em `CONTRIBUTING.md`.
 
 Distribuído sob a licença **MIT License**.
 
-```
 
