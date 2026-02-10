@@ -1,192 +1,157 @@
+```markdown
 ![educacional](https://img.shields.io/badge/conte%C3%BAdo-educacional-blue)
 ![pt-br](https://img.shields.io/badge/idioma-PT--BR-green)
 ![open](https://img.shields.io/badge/open-curriculum-brightgreen)
 
 # Universidade Livre — Finanças, Investimentos e Economia (Brasil)
 
-Um caminho **livre, aberto e estruturado** para a educação autodidata em **finanças**, **investimentos**, **economia**, **finanças corporativas** e **empreendedorismo**, inspirado no modelo da Universidade Livre.
+Um **currículo aberto e autodidata** para estudar **finanças, investimentos, economia, finanças corporativas e empreendedorismo**, com foco em fundamentos e prática — inspirado no modelo da Universidade Livre.
 
-> **Aviso importante:** este repositório tem fins exclusivamente educacionais. **Não é recomendação** de investimento, compra/venda de ativos ou aconselhamento financeiro, tributário ou jurídico.
-
----
-
-## Como usar
-
-* Siga as etapas em ordem (ou pule apenas se dominar os pré‑requisitos).
-* Priorize **entendimento conceitual**, não atalhos de mercado.
-* Ao final de cada etapa, realize **um projeto prático**.
-
-Recomendação: mantenha um fork com um diretório `meu-progresso/` contendo resumos, planilhas e notebooks.
+> ⚠️ **Aviso:** Este repositório tem fins **exclusivamente educacionais**.  
+> Não é recomendação de investimento nem substitui aconselhamento profissional.
 
 ---
 
-## Princípios do currículo
+## 🎯 Para quem é este currículo?
 
-Este currículo privilegia conteúdos que:
-
-* sejam **gratuitos ou parcialmente abertos** (quando pagos, claramente marcados);
-* tenham **estrutura pedagógica** (curso, livro‑texto, trilha);
-* venham de **instituições reconhecidas** ou autores referência;
-* respeitem **direitos autorais** (linkar é ok; redistribuir, não).
+* Pessoas começando do zero em finanças.
+* Quem quer **entender fundamentos**, não apenas “dicas de mercado”.
+* Estudantes autodidatas.
+* Profissionais migrando para o mercado financeiro.
+* Empreendedores que querem dominar números.
 
 ---
 
-## Dependências entre assuntos
+## 🧭 Como usar este repositório
 
-```mermaid
-graph TD
-A[Finanças pessoais] --> B[Matemática financeira]
-B --> C[Renda fixa]
-B --> D[Renda variável]
-C --> E[Alocação de ativos]
-D --> E
-F[Economia] --> E
-G[Contabilidade] --> H[Finanças corporativas]
-H --> I[Valuation]
-I --> E
-E --> J[Especializações]
+1.  Siga as **etapas do currículo** na ordem sugerida.
+2.  Ao final de cada etapa, faça **um projeto prático**.
+3.  Use as **especializações** para aprofundar.
+4.  Registre seu progresso em um *fork*.
+
+**📁 Sugestão de estrutura de pastas para seus estudos:**
+
+```text
+meu-progresso/
+├─ resumos/
+├─ planilhas/
+└─ projetos/
+
 ```
 
 ---
 
-## Currículo
+## 🧠 Princípios do currículo
 
-### 0ª Etapa — Ferramentas e base
+* Fundamentos antes de produtos.
+* Teoria + prática.
+* Fontes confiáveis.
+* Conteúdo aberto sempre que possível.
+* Aprender fazendo.
 
-**Conteúdos**
+---
 
-* Excel / Google Sheets (fórmulas, tabelas dinâmicas)
+## 🗺️ Mapa do currículo
+
+```mermaid
+graph TD
+    A[Finanças pessoais] --> B[Matemática financeira]
+    B --> C[Investimentos]
+    B --> D[Economia]
+    C --> E[Alocação e carteira]
+    D --> E
+    E --> F[Finanças corporativas]
+    F --> G[Valuation]
+    G --> H[Especializações]
+
+```
+
+---
+
+## 📚 Currículo (Visão Geral)
+
+*Detalhes, links de estudo e referências bibliográficas estão descritos dentro da pasta de cada etapa.*
+
+### 0️⃣ Ferramentas e base
+
+* Excel / Google Sheets
 * Estatística básica
 
-**Recursos**
+### 1️⃣ Finanças pessoais e cidadania financeira
 
-* Excel / Sheets: [https://support.microsoft.com/excel](https://support.microsoft.com/excel) • [https://support.google.com/docs](https://support.google.com/docs)
-* Estatística: [https://pt.khanacademy.org/math/statistics-probability](https://pt.khanacademy.org/math/statistics-probability)
+* Planejamento financeiro
+* Proteção do investidor
 
-**Projetos sugeridos**
+### 2️⃣ Investimentos (fundamentos)
 
-* Planilha de orçamento pessoal
-* Análise simples de inflação ou taxa Selic
+* Renda fixa e variável
+* Diversificação
+* Mercado financeiro brasileiro
 
----
-
-### 1ª Etapa — Finanças pessoais e cidadania financeira
-
-**Recursos**
-
-* Banco Central — [https://www.bcb.gov.br/cidadaniafinanceira/cursos](https://www.bcb.gov.br/cidadaniafinanceira/cursos)
-* FGV — [https://portal.fgv.br/noticias/fgv-oferece-cursos-gratuitos-em-educacao-financeira](https://portal.fgv.br/noticias/fgv-oferece-cursos-gratuitos-em-educacao-financeira)
-* CVM — [https://www.gov.br/investidor/pt-br/educacional](https://www.gov.br/investidor/pt-br/educacional)
-
-**Projetos sugeridos**
-
-* Planejamento financeiro pessoal completo
-* Checklist de proteção contra fraudes e produtos inadequados
-
----
-
-### 2ª Etapa — Investimentos (fundamentos)
-
-**Recursos**
-
-* FGV — Como Fazer Investimentos 1 e 2
-  [https://educacao-executiva.fgv.br/cursos/online/curta-media-duracao-online/como-fazer-investimentos-1](https://educacao-executiva.fgv.br/cursos/online/curta-media-duracao-online/como-fazer-investimentos-1)
-* B3 Educação — [https://edu.b3.com.br](https://edu.b3.com.br)
-* ANBIMA Edu — [https://anbimaedu.com.br](https://anbimaedu.com.br)
-
-**Projetos sugeridos**
-
-* Carteira fictícia (renda fixa x renda variável)
-* Simulação de rebalanceamento
-
----
-
-### 3ª Etapa — Economia (micro e macro)
-
-**Recursos**
-
-* Microeconomia (Unicamp) — [https://www.youtube.com/playlist?list=PLHK-p1PtwCjwcSjwf1oKNoJGbsYy80ssT](https://www.youtube.com/playlist?list=PLHK-p1PtwCjwcSjwf1oKNoJGbsYy80ssT)
-* Macroeconomia — [https://www.youtube.com/playlist?list=PL2WRcOQhp8QwOR-exB0FYO5b1Qbcbjd-K](https://www.youtube.com/playlist?list=PL2WRcOQhp8QwOR-exB0FYO5b1Qbcbjd-K)
-
-**Projetos sugeridos**
-
-* Painel macroeconômico brasileiro
-* Estudo simples de elasticidade
-
----
-
-### 4ª Etapa — Empreendedorismo e negócios
-
-**Recursos**
-
-* Sebrae — [https://sebrae.com.br/sites/PortalSebrae/cursosonline](https://sebrae.com.br/sites/PortalSebrae/cursosonline)
-* BNDES — [https://www.bndes.gov.br/wps/portal/site/home/treina-bndes](https://www.bndes.gov.br/wps/portal/site/home/treina-bndes)
-* FGV — Empreendedorismo para o Mercado Financeiro
-* Link School of Business (pago) — [https://lsb.edu.br/pt-br](https://lsb.edu.br/pt-br)
-
-**Projetos sugeridos**
-
-* Modelo de negócios + fluxo de caixa
-* Simulação de financiamento
-
----
-
-### 5ª Etapa — Finanças Corporativas e Valuation
-
-**Recursos**
-
-* MIT OpenCourseWare — Corporate Finance
-  [https://ocw.mit.edu](https://ocw.mit.edu)
-* Aswath Damodaran — Valuation
-  [http://pages.stern.nyu.edu/~adamodar/](http://pages.stern.nyu.edu/~adamodar/)
-
-**Projetos sugeridos**
-
-* Valuation simples por fluxo de caixa descontado
-* Análise financeira de empresa listada
-
----
-
-## Especializações (conteúdo para `specializations/`)
-
-### 📈 Investimentos
-
-* Renda fixa, renda variável, fundos, ETFs, derivativos
-* Gestão de carteira e risco
-
-### 🌍 Economia
+### 3️⃣ Economia (micro e macro)
 
 * Microeconomia
 * Macroeconomia
 * Economia brasileira
 
-### 🚀 Empreendedorismo
+### 4️⃣ Empreendedorismo e negócios
 
-* Finanças para startups
-* Precificação
-* Crescimento e sustentabilidade
+* Modelos de negócio
+* Fluxo de caixa
+* Financiamento
 
-### 💼 Carreira no Mercado Financeiro (Brasil)
+### 5️⃣ Finanças corporativas e valuation
 
-* Ética e regulação
-* Estrutura do SFN
-
-### 🧾 Certificações (CPA‑10, CPA‑20, CEA)
-
-* Trilhas da ANBIMA Edu
-* Planejamento de estudos e simulados
+* Análise de balanços
+* Custo de capital
+* Valuation (DCF)
 
 ---
 
-## Extras (`extras/`)
+## 🛠️ Projetos práticos
 
-* Webinars da B3 — [https://edu.b3.com.br/eventos](https://edu.b3.com.br/eventos)
-* Webinars e aulas abertas da FGV
-* Oficinas do Sebrae
-* Leituras clássicas e masterclasses internacionais
+Os projetos são parte central do aprendizado.
+
+👉 *Veja a lista completa e instruções em `PROJECTS.md`.*
+
+**Exemplos:**
+
+* Orçamento pessoal detalhado.
+* Montagem de carteira de investimentos fictícia.
+* Criação de um painel (dashboard) macroeconômico.
+* Valuation completo de uma empresa listada na B3.
+* Plano financeiro de um novo negócio.
 
 ---
 
-## Como contribuir
+## 🎓 Especializações
 
-Veja [CONTRIBUTING.md](CONTRIBUTING.md).
+As trilhas de aprofundamento encontram-se no diretório `specializations/`:
+
+* 📈 **Investimentos** (Aprofundado)
+* 🌍 **Economia**
+* 🚀 **Empreendedorismo**
+* 💼 **Carreira no Mercado Financeiro** (Brasil)
+* 🧾 **Certificações** (CPA-10, CPA-20, CEA)
+* 🏢 **Finanças Corporativas e Valuation**
+
+---
+
+## 📦 Extras
+
+Conteúdos complementares, lista de eventos, recomendações de livros e masterclasses estão no diretório `extras/`.
+
+---
+
+## 🤝 Como contribuir
+
+Quer sugerir um conteúdo ou corrigir um erro? Veja o guia em `CONTRIBUTING.md`.
+
+---
+
+## 📜 Licença
+
+Distribuído sob a licença **MIT License**.
+
+```
+
